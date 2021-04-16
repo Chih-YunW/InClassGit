@@ -5,6 +5,7 @@ def password (n):
 	while i <= n:
 		a = random.randint(32,126)
 		print(chr(a), end = "")
+		i = i + 1
 
 length = input("Please enter a length for the password: ")
 length = int(length)
