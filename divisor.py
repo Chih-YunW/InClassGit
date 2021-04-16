@@ -1,3 +1,6 @@
 def divisor(a):
 	i = 1
-	while i <= a
+	while i <= a:
+		if(a % i == 0):
+			print(i)
+
